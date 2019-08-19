@@ -1,0 +1,17 @@
+title: TestMyCourseCreation
+tagline: A brand new course on Learning Lab
+description: Test Course creation
+template:
+  repo: testmycoursecreation-template
+  name: testmycoursecreation
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
