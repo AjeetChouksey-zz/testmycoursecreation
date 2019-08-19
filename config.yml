@@ -4,6 +4,7 @@ description: Test Course creation
 template:
   repo: testmycoursecreation-template
   name: testmycoursecreation
+  description: T
 before:
   - type: createIssue
     title: Welcome!
